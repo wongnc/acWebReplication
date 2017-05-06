@@ -47,6 +47,11 @@ html,body{
 /*content1 area*/
 #main #content1{
 	margin-top: 10px;
+    background-image: url("../pics/hero.jpg");
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    padding-top: 450px;
+    padding-bottom: 10px;
 }
 
 #main #content1 #fullbackground {
@@ -62,37 +67,41 @@ html,body{
 	background-color:black;
 }
 
-#main #content1 #contentBar #box{
-	padding-top: 10px;
+#main #content1 #contentBar .box{
+	padding: 10px;
 	width: 33%;
 	height: auto;
 	display:inline-block;
-	padding-left: 10px;
 }
 
-#main #content1 #contentBar #box #boxPic img{
-	width: 50%;
+#main #content1 #contentBar .box .boxPic {
+	width:50%;
+}
+
+#main #content1 #contentBar .box .boxPic img{
+	width: 100%;
 	height: auto;
 	border: 1px solid darkred;
-	float:left;
+	float: left;
 }
 
-#main #content1 #contentBar #box #smboxInfo {
+#main #content1 #contentBar .box .smboxInfo {
 	float:right;
 	padding-left: 15px;
-	width: 50%;
+	width: 48%;
+	line-height:1.1;
 	height: auto;
 	font-size: 12px;
 /*	font-family: 'Lato', sans-serif;*/
 }
 
-#main #content1 #contentBar #box #smboxInfo span{
+#main #content1 #contentBar .box .smboxInfo span{
 	color:darkred;
-	font-size: 18px;
+	font-size: 15px;
 /*	font-family: 'Lato', sans-serif;*/
 }
 
-#main #content1 #contentBar #box #smboxInfo p{
+#main #content1 #contentBar .box .smboxInfo p{
 	color:white;
 }
 
@@ -105,19 +114,19 @@ html,body{
 	margin-top: 10px;
 }
 
-#main #content2 #leftCol #title{
+#main #content2 #leftCol .title{
 	width: 300px;
 	background-color: darkred;
 }
 
-#main #content2 #leftCol #leftContent #box{
+#main #content2 #leftCol #leftContent .box{
 	margin-top: 10px;
 	margin-bottom:-15px;
 	margin-left: 10px;
 	display:inline-block;
 }
 
-#main #content2 #leftCol #title span{
+#main #content2 #leftCol .title span{
 	color:white;
 	font-size: 20px;
 	text-align:left;
@@ -125,14 +134,14 @@ html,body{
 	padding-left: 10px;
 }
 
-#main #content2 #leftCol #box #boxPic img{
+#main #content2 #leftCol .box .boxPic img{
 	width:50%;
 	height:auto;
 	float:left;
 	border: 1px solid darkred;
 }
 
-#main #content2 #leftCol #box #smboxInfo{
+#main #content2 #leftCol .box .smboxInfo{
 	width:45%;
 	height:auto;
 	float:right;
@@ -141,7 +150,7 @@ html,body{
 	padding-right: 10px
 }
 
-#main #content2 #leftCol #box #smboxInfo span{
+#main #content2 #leftCol .box .smboxInfo span{
 	font-size: 15px;
 	color:darkred;
 }
@@ -154,19 +163,19 @@ html,body{
 	margin-top: 10px;
 }
 
-#main #content2 #rightCol #title{
+#main #content2 #rightCol .title{
 	width: 616px;
 	background-color: darkred;
 }
 
-#main #content2 #rightCol #rightContent #box{
+#main #content2 #rightCol #rightContent .box{
 	margin-top: 10px;
 	margin-bottom:-15px;
 	margin-left: 10px;
 	display:inline-block;
 }
 
-#main #content2 #rightCol #title span{
+#main #content2 #rightCol .title span{
 	color:white;
 	font-size: 20px;
 	text-align:left;
@@ -174,14 +183,14 @@ html,body{
 	padding-left: 10px;
 }
 
-#main #content2 #rightCol #box #boxPic img{
+#main #content2 #rightCol .box .boxPic img{
 	width:25%;
 	height:auto;
 	float:left;
 	border: 1px solid darkred;
 }
 
-#main #content2 #rightCol #box #smboxInfo{
+#main #content2 #rightCol .box .smboxInfo{
 	width:70%;
 	height:auto;
 	float:right;
@@ -190,7 +199,7 @@ html,body{
 	padding-right: 10px
 }
 
-#main #content2 #rightCol #box #smboxInfo span{
+#main #content2 #rightCol .box .smboxInfo span{
 	font-size: 15px;
 	color:darkred;
 }

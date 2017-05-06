@@ -54,182 +54,40 @@ html,body{
     padding-bottom: 10px;
 }
 
-#main #content1 #fullbackground {
-	width: 961px;
-	height: auto;
+#content-bar{
+	width:100%;
+	margin: 0 auto;
+	border: 1px solid red;
 }
 
-#main #content1 #contentBar{
-	width: 940px;
-	height: auto;
-	margin: auto;
-	border: 1px solid darkred;
+#content-bar .col-md-4 .row{
 	background-color:black;
-}
-
-#main #content1 #contentBar .box{
 	padding: 10px;
-	width: 33%;
-	height: auto;
-	display:inline-block;
 }
 
-#main #content1 #contentBar .box .boxPic {
-	width:50%;
+#content-bar .col-md-4 .row:hover{
+	background-color:#241f1f;
 }
 
-#main #content1 #contentBar .box .boxPic img{
-	width: 100%;
-	height: auto;
-	border: 1px solid darkred;
-	float: left;
+#content-bar .col-md-4 .row .col-md-5, .col-md-7{
+	line-height:1;
+	padding:0;
 }
 
-#main #content1 #contentBar .box .smboxInfo {
-	float:right;
-	padding-left: 15px;
-	width: 48%;
-	line-height:1.1;
-	height: auto;
-	font-size: 12px;
-/*	font-family: 'Lato', sans-serif;*/
+#content-bar .col-md-4 .row .col-md-7{
+	padding-left:10px;
 }
 
-#main #content1 #contentBar .box .smboxInfo span{
-	color:darkred;
-	font-size: 15px;
-/*	font-family: 'Lato', sans-serif;*/
-}
-
-#main #content1 #contentBar .box .smboxInfo p{
+#content-bar .content-bar-item-text{
 	color:white;
+	font-size:12px;
 }
 
-/*left col content*/
-#main #content2 #leftCol{
-	width: 300px;
-	float:left;
-	background-color:black;
-	margin-right: 10px;
-	margin-top: 10px;
+#content-bar .content-bar-item-title{
+	color:red;
+	margin-bottom:5px;
 }
 
-#main #content2 #leftCol .title{
-	width: 300px;
-	background-color: darkred;
+#content-bar .col-md-4 .row .col-md-6 .img-responsive{
+	border: 1px solid red;
 }
-
-#main #content2 #leftCol #leftContent .box{
-	margin-top: 10px;
-	margin-bottom:-15px;
-	margin-left: 10px;
-	display:inline-block;
-}
-
-#main #content2 #leftCol .title span{
-	color:white;
-	font-size: 20px;
-	text-align:left;
-	width: 300px;
-	padding-left: 10px;
-}
-
-#main #content2 #leftCol .box .boxPic img{
-	width:50%;
-	height:auto;
-	float:left;
-	border: 1px solid darkred;
-}
-
-#main #content2 #leftCol .box .smboxInfo{
-	width:45%;
-	height:auto;
-	float:right;
-	color:white;
-	font-size: 12px;
-	padding-right: 10px
-}
-
-#main #content2 #leftCol .box .smboxInfo span{
-	font-size: 15px;
-	color:darkred;
-}
-
-/*right col content*/
-#main #content2 #rightCol{
-	width: 616px;
-	float: right;
-	background-color:black;
-	margin-top: 10px;
-}
-
-#main #content2 #rightCol .title{
-	width: 616px;
-	background-color: darkred;
-}
-
-#main #content2 #rightCol #rightContent .box{
-	margin-top: 10px;
-	margin-bottom:-15px;
-	margin-left: 10px;
-	display:inline-block;
-}
-
-#main #content2 #rightCol .title span{
-	color:white;
-	font-size: 20px;
-	text-align:left;
-	width: 300px;
-	padding-left: 10px;
-}
-
-#main #content2 #rightCol .box .boxPic img{
-	width:25%;
-	height:auto;
-	float:left;
-	border: 1px solid darkred;
-}
-
-#main #content2 #rightCol .box .smboxInfo{
-	width:70%;
-	height:auto;
-	float:right;
-	color:white;
-	font-size: 12px;
-	padding-right: 10px
-}
-
-#main #content2 #rightCol .box .smboxInfo span{
-	font-size: 15px;
-	color:darkred;
-}
-
-
-
-
-
-
-/*
-#main #nav ul{
-    background-color:black;
-	float:left;
-}
-
-#main #nav ul li a{
-    display:inline-block;
-    margin: 0px 0px 0px 15px;
-    text-align:center;
-    color:white;
-    border-right: 1px solid white;
-    padding-right: 15px;
-	text-decoration:none;
-}
-
-#main #nav ul li:last-child{
-    border:none;
-}
-
-#main #nav ul li:first-child{
-    margin-left:0px;
-}
-*/

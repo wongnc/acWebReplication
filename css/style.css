@@ -24,34 +24,40 @@ html,body{
     float: left;
 }
 
-#main #nav ul li a {
+#main #nav ul li {
     display: block;
     color: white;
+    padding: 14px 9px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-	border-right: 1px solid white;
 	font-family: 'Lato', sans-serif;
 	font-size: 17px;
 }
 
+#main #nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
 #main #nav ul li a:hover {
     color: #891016;
-	transition: 1s;
+	transition: 0.5s;
 }
 
 #main #nav ul li:last-child{
     border:none;
 }
 
-/*content1 area*/
-#main #content1{
+#main .container-fluid{
+	padding:0;
+}
+
+/*main-hero area*/
+#main #main-hero{
 	margin-top: 10px;
     background-image: url("../pics/hero.jpg");
     background-size: 100% 100%;
     background-repeat:no-repeat;
-    padding-top: 450px;
-    padding-bottom: 10px;
+    padding: 450px 10px 10px 10px;
 }
 
 #content-bar{
@@ -60,34 +66,88 @@ html,body{
 	border: 1px solid red;
 }
 
-#content-bar .col-md-4 .row{
+#content-bar .col-xs-4 .row{
 	background-color:black;
 	padding: 10px;
 }
 
-#content-bar .col-md-4 .row:hover{
+#content-bar .col-xs-4 .row:hover{
 	background-color:#241f1f;
 }
 
-#content-bar .col-md-4 .row .col-md-5, .col-md-7{
+/*#content-bar .col-xs-4 .row .col-xs-5, .col-xs-7{
 	line-height:1;
 	padding:0;
-}
+}*/
 
-#content-bar .col-md-4 .row .col-md-7{
+#content-bar .col-xs-4 .row .col-xs-7{
 	padding-left:10px;
 }
 
-#content-bar .content-bar-item-text{
-	color:white;
-	font-size:12px;
-}
-
-#content-bar .content-bar-item-title{
+.content-bar-item-title{
 	color:red;
 	margin-bottom:5px;
+	font-size: 15px;
 }
 
-#content-bar .col-md-4 .row .col-md-6 .img-responsive{
+.main-content{
+	margin-top:12px;
+}
+
+.main-content-title{
+	background-color:red;
+	color:white;
+	font-size:16px;
+}
+
+.main-content .img-responsive, .main-hero .img-responsive{
 	border: 1px solid red;
+}
+.img-information-box{
+	line-height:1;
+	padding:0;
+	max-height: 86px;
+	color: white;
+    font-size: 12px;
+    padding-left:8px;
+}
+
+.main-content .row .col-xs-12 .col-xs-8{
+	width:65.5%;
+	margin-left:10px;
+}
+
+.col-xs-4, .col-xs-8{
+	background-color:black;
+	max-height:330px;
+}
+
+.col-xs-4 .col-xs-12 .row, .col-xs-8 .col-xs-12 .row{
+	margin-top:15px;
+}
+
+.col-xs-4 .content-information-box:last-child, .col-xs-8 .content-information-box:last-child{
+	margin-bottom:25px;
+}
+
+.main-footer{
+	border-top: 1px solid white;
+	margin-top:10px;
+	padding-top:25px;
+}
+
+#esrb{
+	margin-top:20px;
+	padding:0;
+}
+
+#mature17 ul{
+	padding:25px 0px;
+	color:white;
+	list-style-type: none;
+	font-size:12px;
+	line-height: 1.3;
+}
+#mature17 .col-xs-6:last-child {
+	padding:0;
 }

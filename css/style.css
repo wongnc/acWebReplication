@@ -75,6 +75,10 @@ html,body{
 	background-color:#241f1f;
 }
 
+#content-bar .col-xs-4.active .row{
+	background-color:#241f1f;
+}
+
 /*#content-bar .col-xs-4 .row .col-xs-5, .col-xs-7{
 	line-height:1;
 	padding:0;
@@ -103,6 +107,11 @@ html,body{
 .main-content .img-responsive, .main-hero .img-responsive{
 	border: 1px solid red;
 }
+
+.img-information-box .img-responsive{
+	border:1px solid red;
+}
+
 .img-information-box{
 	line-height:1;
 	padding:0;
@@ -151,3 +160,21 @@ html,body{
 #mature17 .col-xs-6:last-child {
 	padding:0;
 }
+
+#pc{
+	margin-top:-20px;
+}
+
+#ubi{
+	margin-top:-10px;
+}
+
+#content-footer p{
+	color:white;
+	font-size: 10px;
+}
+
+#ubi-copyright{
+	padding-top:15px;
+}
+
